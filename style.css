@@ -47,7 +47,7 @@ main {
     background-image: url('images/header.png');
     background-size:cover;
     background-position: center;
-    height: 200vh;
+    min-height: 100vh;       
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -63,7 +63,16 @@ main {
     margin: 10px;
     border-radius: 10px;
     width: 95%;
-    height: auto;
+    overflow: visible;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    width: 100%;
+    max-width: none;
+    padding: 1rem;
+    margin: 20px;
+  }
 }
 
 #todo {
@@ -129,3 +138,4 @@ main {
       align-items: center;
     }
   }
+
