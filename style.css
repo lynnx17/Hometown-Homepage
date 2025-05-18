@@ -124,7 +124,8 @@ main {
 }
 
 @media (max-width: 1000px) {
-  #Getting-there {
-    flex-direction: column;
-    align-items: center;
+    #Getting-there {
+      flex-direction: column;
+      align-items: center;
+    }
   }
